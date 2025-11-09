@@ -1,0 +1,13 @@
+covid_rpt_analysis/
+│
+├── data_raw/                 # 原始数据文件（RPT_*.dta, *.xlsx）
+├── data_clean/               # 清洗后的输出数据
+├── notebooks/                # 临时分析与可视化 Jupyter 文件
+├── scripts/                  # 正式 Python 脚本（.py 文件）
+│   ├── 01_data_cleaning.py
+│   ├── 02_aggregation.py
+│   ├── 03_visualization.py
+│
+├── requirements.txt          # 环境依赖文件
+├── .gitignore                # 可选：忽略缓存和数据文件
+└── README.md                 # 项目简介与运行说明
