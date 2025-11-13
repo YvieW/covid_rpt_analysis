@@ -1,0 +1,21 @@
+covid_rpt_analysis/
+│
+├── data_raw/                 # 原始数据文件（RPT_*.dta, *.xlsx）
+├── data_clean/               # 清洗后的输出数据
+├── scripts/                  # 正式 Python 脚本（.py 文件）
+│   ├── 01_data_cleaning.py
+│   ├── app.py                          # 主入口：Dash app 启动文件
+│   ├── components/		# web中调用
+│   │   ├──overview.py                 
+│   │   ├──industry_view.py           
+│   │   ├──region_flow.py              
+│   │   ├──company_network.py    
+│   ├── modules/		# 模块单独调试用
+│   │   ├──overview.py                 # 概览仪表盘（交易额随年份变化等）
+│   │   ├──industry_view.py            # 行业分析
+│   │   ├──region_flow.py              # 主公司省份 × 关联方省份交易流向
+│   │   ├──company_network.py          # 公司关联方网络分析
+│
+├── requirements.txt          # 环境依赖文件
+├── .gitignore                # 可选：忽略缓存和数据文件
+└── README.md                 # 项目简介与运行说明
