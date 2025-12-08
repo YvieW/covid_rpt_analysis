@@ -1,0 +1,52 @@
+
+>> Describe numerical variables:
+
+               isam     pannrsm
+count  9.060000e+02  906.000000
+mean   6.539420e+07    0.377763
+std    1.851272e+08    0.412736
+min    3.239000e+02    0.000001
+25%    3.616698e+05    0.024593
+50%    2.695844e+06    0.133270
+75%    5.000000e+07    0.924825
+max    2.424361e+09    1.000000
+
+
+>> RPT type distribution (repat):
+
+repat
+1     334
+6     228
+7     120
+3     119
+5      42
+13     23
+8      12
+4       9
+2       7
+9       7
+19      3
+21      2
+
+
+>> Relation type distribution (relation):
+
+relation
+12    249
+7     139
+1     110
+3      93
+10     86
+6      83
+11     79
+2      60
+5       6
+4       1
+
+
+>> Period distribution:
+
+period
+During-COVID    433
+Post-COVID      284
+Pre-COVID       189
