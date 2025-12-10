@@ -1,4 +1,5 @@
 Hi, this is a student project for DSAA 5024.
+You can get an overview from this link：http://8.217.223.91:8050
 Part of my work involves this visual panel, and I built this related party transaction analysis dashboard from the perspective of "Guangdong Province".
 The components section of scripts is the module components of the dashboard, while the analysis section deals with empirical analysis.
 
